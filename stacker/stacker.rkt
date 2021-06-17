@@ -11,7 +11,7 @@
   ; > '((foo 42) (bar 42) (baz 42))
   (define src-datums (format-datums '(handle ~a) src-lines))
 
-  ; define our `stacker-module` using the `br` expander, passing in the
+  ; define our `stacker-module` using the `stacker.rkt` expander, passing in the
   ; list of datums using `unquote-splicing` operator, merging the
   ; sublist with the surrounding list.
   (define module-datum `(module stacker-module "stacker.rkt",@src-datums))
