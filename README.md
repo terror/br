@@ -8,4 +8,6 @@ Matthew Butterick.
 [Stacker](https://github.com/terror/br/tree/master/src/stacker) - A stack-based
 calculator <br/>
 [Funstacker](https://github.com/terror/br/tree/master/src/funstacker) - Stacker, but
-functional style
+functional style<br/>
+[Stackerizer](https://github.com/terror/br/tree/master/src/stackerizer) -
+Converts Racket S-expressions into a Stacker program
